@@ -1,9 +1,7 @@
 #include <iostream>
 #include <list>
 #include <string>
-#include <iostream>
 #include <algorithm>
-
 
 int Operation(int a, int b, int mode) {
 	switch (mode) {
@@ -21,7 +19,7 @@ int Operation(int a, int b, int mode) {
 			return -1;
 		}
 		else {
-			//只允许整除的情况
+			//only allow a divide by b
 			if (a % b != 0) {
 				return -1;
 			}
